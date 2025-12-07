@@ -1,6 +1,12 @@
-# python met turtle opdrachten
+# python projecten
 Deze repository bevat een configuratie voor de Codespaces ontwikkelomgeving.
-Leerlingen kunnen hiermee de python opdrachten met turtle-graphics uit Informatica Actief maken.
+
+Leerlingen kunnen hiermee de python projecten uit Informatica-Actief maken.
+
+De configuratie ondesteunt:
+- Python met grafische user interface (in de browser via novnc)
+- Standaard met python meegeleverde packages zoals turtle, tkinter en sqlite
+- De packages pygame-ce en coderius-play
 
 ## Start Codespaces
 - Login op GitHub
