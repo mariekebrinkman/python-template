@@ -37,7 +37,8 @@
 		// Configure properties specific to VS Code.
 		"vscode": {
 			"extensions": [
-				"ms-vsliveshare.vsliveshare" // add google-docs like typing in same file, click on live-share button in left icon pane
+				"ms-vsliveshare.vsliveshare", // add google-docs like typing in same file, click on live-share button in left icon pane
+				"./.vscode/vscode-command-task" // custom made extension to execute vscode commands
 			]
 		}
 	}

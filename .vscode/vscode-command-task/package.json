@@ -1,0 +1,41 @@
+{
+  "name": "vscode-command-task",
+  "displayName": "VS Code Command Task (Allowlisted)",
+  "description": "Run allowlisted VS Code commands from tasks (works in VS Code Web).",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "activationEvents": ["onTaskType:vscodeCommand"],
+  "main": "./extension.js",
+  "browser": "./extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "VS Code Command Task",
+      "properties": {
+        "vscodeCommandTask.allowedCommands": {
+          "type": "array",
+          "default": ["simpleBrowser.show"],
+          "items": { "type": "string" },
+          "description": "Commands this task type is allowed to execute."
+        },
+        "vscodeCommandTask.confirmBeforeRun": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show a confirmation modal before running."
+        }
+      }
+    },
+    "taskDefinitions": [
+      {
+        "type": "vscodeCommand",
+        "required": ["command"],
+        "properties": {
+          "command": { "type": "string" },
+          "args": { "type": "array" }
+        }
+      }
+    ]
+  }
+}

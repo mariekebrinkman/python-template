@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Open Simple Browser",
+      "type": "vscodeCommand",
+      "command": "simpleBrowser.show",
+      "args": ["https://localhost:8000"],
+      "problemMatcher": []
+    }
+  ]
+}
