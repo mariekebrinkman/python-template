@@ -35,18 +35,18 @@ Als de GUI niet automatisch opent:
 - Dubbelklik op een bestand dat eindigt op `.py`. Het bestand wordt geopend in de editor.
 
 ## Wijzigingen opslaan in GitHub
-- Klik in de activity bar op het Source Control icoon.
-- Voer een beschrijving van de wijziging in
-- Druk op de groen knop "Commit & Sync"
-
-## Samenwerken in GitHub
-Sla je wijzigingen op in GitHub:
+Sla je wijzigingen als volgt op in GitHub:
 - Klik in de menu balk die links op je scherm staat op het Source Control icoon.
 - Vul een beschrijving in van je wijziging
-- Druk op de knop "Commit & Sync":
-    - Bestanden die door jouw maatje gewijzigd zijn worden van GitHub naar jouw Codespace gekopieerd
-    - Bestanden die jij hebt gewijzigd worden van jouw Codespace naar GitHub gekopieerd. 
-    - Als jij en je maatje in hetzelfde bestand wijzigingen hebben gedaan, dan wordt de laatste versie (jouw bestand) bewaard.
+- Druk op de knop "Commit & Sync".
+
+## Samenwerken in GitHub
+Sla je wijzigingen op in GitHub, zoals hierboven beschreven.
+
+Als je maatje intussen andere wijzigingen heeft opgeslagen, dan kiest GitHub als volgt:
+- Bestanden die jouw maatje heeft gewijzigd worden van GitHub naar jouw Codespace gekopieerd.
+- Bestanden die jij hebt gewijzigd worden van jouw Codespace naar GitHub gekopieerd. 
+- Van bestanden die jullie allebei hebben gewijzigd toont GitHub jouw versie als laatste versie.
 
 Wijzigingen van je maatje die jij hebt overschreven kun je terughalen:
 - Klik op het Source Control icoon.
@@ -54,5 +54,3 @@ Wijzigingen van je maatje die jij hebt overschreven kun je terughalen:
 - Klik bij het bestand waarvan je wijzigingen wilt herstellen op het icoontje links van de M, het bestand opent (als je rode en groene regels ziet dan heb je op de naam van het bestand geklikt in plaats van het icoontje)
 - Knip en plak de wijzigingen uit de versie van je maatje naar de versie van jou
 - Sla je wijzigingen op in GitHub met "Commit & Sync"
-
-    
