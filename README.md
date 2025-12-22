@@ -19,7 +19,7 @@ Opties voor de docent:
   - Deze leerling voegt onder Settings van de repository de andere leerling en de docent toe als collaborator.
 - Optie 2:
   - De docent gebruikt GitHub Classroom om een opdracht aan te maken en deelt een inschrijf-link met leerlingen.
-  - Leerlingen gebruiken de inschrijf-link naar GitHub Classroom om een repository voor hun groepje aan te maken.
+  - Leerlingen gebruiken de inschrijf-link naar GitHub Classroom om een repository voor hun groepje aan te maken. Deze repositories worden geplaatst in een door de docent beheerde GitHub-organisatie.
 
 ## Start Codespaces
 - Login op https://github.com/
